@@ -1,0 +1,8 @@
+export enum RazonCancelacion {
+    DIRECCION_INCORRECTA = 0,
+    PRODUCTOS_INCOMPLETOS = 1,
+    PRODUCTO_EN_MAL_ESTADO = 2,
+    TIEMPO_DE_ESPERA = 3,
+    PEDIDO_DUPLICADO = 4,
+    OTRO = 5
+}

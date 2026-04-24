@@ -7,6 +7,7 @@ const Dimension = require('./Dimension')(sequelize, Sequelize)
 const Proveedor = require('./Proveedor')(sequelize, Sequelize)
 const Producto = require('./Producto')(sequelize, Sequelize)
 const DetalleTiposDeProducto = require('./DetalleTiposDeProducto')(sequelize, Sequelize)
+const Curso = require('./Curso')(sequelize, Sequelize)
 
 //RELACIONES
 Proveedor.hasMany(Producto)
@@ -27,5 +28,6 @@ module.exports = {
     Dimension,
     Proveedor,
     Producto,
-    DetalleTiposDeProducto
+    DetalleTiposDeProducto,
+    Curso
 }
